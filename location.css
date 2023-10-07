@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body, 
+html {
+    font-family: 'Montserrat', sans-serif; 
+    margin: 0; 
+    width: 100%; 
+    height: 100%;
+    padding: 0;
+    user-select: none;
+}
+body {
+    background: url(images/bg-1.jpg);
+    background-size: cover;
+    max-height: 100%;
+    /* display: flex; 
+    display: -webkit-flex; 
+    -webkit-justify-content: center; 
+    -webkit-align-items: center; 
+    justify-content: center; 
+    align-items: center;  */
+}
+/* #myvideo{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    opacity: 1;
+    max-width: 100%;
+    height: auto;
+    z-index: -1;
+} */
+
+#main{
+    background: url("images/location.jpg");
+    background-size: cover;
+    background-position: center center;
+    z-index: -1;
+    background-attachment: fixed;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+.home-btn{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.home-btn .btn{
+    border-radius: 11px;
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    top: 100px;
+    padding: 7px 24px;
+    font-weight: bold;
+    transition: 0.2s ease;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.home-btn .btn:hover{
+    color: #000000;
+    background: #fff;
+    transition: 0.2s ease;
+}
+
+h1{
+    width: 600px;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    display: flex;
+    max-width: 600px;
+    margin-left: 20%;
+    margin-right: auto;
+    text-align: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 3.5rem;
+    font-family: 'Anton', sans-serif;
+    font-weight: 80;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(3px);
+}
+.cards {
+    width: 100%; 
+    display: grid; 
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin-left: 2.2rem;
+    /* display: -webkit-flex; 
+    flex-wrap: wrap; */
+    justify-content: center; 
+    /* -webkit-justify-content: center;  */
+    max-width: 95%;         /* 820px */
+}
+.card--1 .card__img,
+.card--1 .card__img--hover { 
+    background-image: url("images/Sabarmati-Riverfront-Banner.jpg");
+}
+.card--2 .card__img, 
+.card--2 .card__img--hover { 
+    background-image: url("images/ss.jpg"); 
+}
+.card--3 .card__img, 
+.card--3 .card__img--hover { 
+    background-image: url("images/kankaria.jpg"); 
+}
+.card--4 .card__img, 
+.card--4 .card__img--hover { 
+    background-image: url("images/adalaj.jpg"); 
+}
+.card--5 .card__img, 
+.card--5 .card__img--hover { 
+    background-image: url("images/gandhi-ashram.jpg"); 
+}
+.card--6 .card__img, 
+.card--6 .card__img--hover { 
+    background-image: url("images/science-city.jpg"); 
+}
+.card--7 .card__img, 
+.card--7 .card__img--hover { 
+    background-image: url("images/manek-chowk.jpg"); 
+}
+.card--8 .card__img, 
+.card--8 .card__img--hover { 
+    background-image: url("images/auto-museum.jpg"); 
+}
+.card--9 .card__img, 
+.card--9 .card__img--hover { 
+    background-image: url("images/vaishnodevi.jpg"); 
+}
+.card--10 .card__img, 
+.card--10 .card__img--hover { 
+    background-image: url("images/lothal.jpg");     
+}
+.card--11 .card__img, 
+.card--11 .card__img--hover { 
+    background-image: url("images/vs-space-exhibition.jpg"); 
+}
+.card--12 .card__img, 
+.card--12 .card__img--hover { 
+    background-image: url("images/akshardham.jpg"); 
+}
+.card--13 .card__img, 
+.card--13 .card__img--hover { 
+    background-image: url("images/narendra-modi-stadium.jpg"); 
+}
+
+
+.card__img{
+    visibility: hidden; 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    width: 100%; 
+    height: 235px; 
+    border-top-left-radius: 12px; 
+    border-top-right-radius: 12px; 
+}
+
+.card__info--hover { 
+    position: absolute; 
+    padding: 16px; 
+    width: 100%; 
+    opacity: 0; 
+    top: 0; 
+}
+
+.card__img--hover { 
+    transition: 8,2s all ease-out; 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    width: 100%; 
+    position: absolute; 
+    height: 235px; 
+    border-top-left-radius: 12px; 
+    border-top-right-radius: 12px; 
+    top: 0; 
+}
+.card{
+    margin-right: 25px;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+    background-color: #fff;
+    width: 33.3%;
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0px 13px 10px -7px rgba(0,0,0,0.1);
+}
+.card:hover{
+    box-shadow: 0px 30px 18px -8px rgba(0,0,0,0.1);;
+    transform: scale(1.1,1.1);
+}
+.card__info{
+    z-index: 2;
+    background-color: #fff;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    padding: 16px 24px 24px 24px;
+}
+.card__category{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #868686;
+}
+.card__title{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;;
+}
+.card--author{
+    font-weight: 600;
+    text-decoration: none;
+    color: #ad7d52;
+}
+.card:hover .card__img--hover{
+    height: 100%;
+    opacity: 1;
+}
+.card:hover .card__info{
+    background-color: transparent;
+    position: relative;
+    color: #fff;
+}
+.card:hover .card__info-hover{
+    opacity: 1;
+}
+
+/* ----- CHANGE THE SCROLL BAR DESIGN ----- */
+::-webkit-scrollbar{
+    width: 10px;
+    border-radius: 25px;
+}
+::-webkit-scrollbar-track{
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb{
+    background: #ccc;
+    border-radius: 30px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: #bbb;
+}
