@@ -14,7 +14,7 @@ html {
     user-select: none;
 }
 body {
-    background: url(images/bg-1.jpg);
+    background: url(images/coastline.jpg);
     background-size: cover;
     max-height: 100%;
     background-attachment: fixed;
