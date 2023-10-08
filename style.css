@@ -105,7 +105,7 @@ ul li{
 
 ul li a{
   text-decoration: none;
-  color: #000;
+  color: #fff;
   height: 60px;
   line-height: 60px;
   display: flex;
@@ -144,27 +144,6 @@ ul li a:hover span:nth-child(1){
   width: 180px;
   padding-left: 20px;
 }
-
-/*ul li:nth-child(2) a span:nth-child(1),
-ul li:nth-child(2) a span:nth-child(2){
-  background: #e4405f;
-}
-
-ul li:nth-child(3) a span:nth-child(1),
-ul li:nth-child(3) a span:nth-child(2){
-  background: #1da1f2;
-}
-
-ul li:nth-child(4) a span:nth-child(1),
-ul li:nth-child(4) a span:nth-child(2){
-  background: #171515;
-}
-
-ul li:nth-child(5) a span:nth-child(1),
-ul li:nth-child(5) a span:nth-child(2){
-  background: #0a66c2;
-}
-*/
 
 
 /* ----- CHANGE THE SCROLL BAR DESIGN ----- */
