@@ -7,6 +7,16 @@
     padding:0;
     font-family: 'Montserrat', sans-serif;
 }
+
+body {
+    background: url(images/river.jpg);
+    background-size: cover;
+    max-height: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
 .hero{
     height:100%;
     width:100%;
@@ -16,14 +26,14 @@
     position:absolute;
 }
 
-#myvideo{
+/* #myvideo{
   position: fixed;
   right: 0;
   bottom: 0;
   max-width: 100%;
   height: auto;
   z-index: -1;
-}
+} */
 
 .home-btn{
     margin-top: 30px;
