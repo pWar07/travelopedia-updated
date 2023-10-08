@@ -19,10 +19,53 @@ body{
     min-height: 100vh;
 }
 
+.header{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.home-btn{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.home-btn .btn {
+    border: 1px solid #fff;
+    padding: 14px 18px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 3px;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+.home-btn .btn:hover {
+    background: #fff;
+    color: #000;
+}   
+
 h2{
     font-size: 50px;
     color: #fff;
     font-family: 'Anton', sans-serif;
+    width: 600px;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    display: flex;
+    max-width: 600px;
+    margin-left: 20%;
+    margin-right: auto;
+    text-align: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 3.5rem;
+    font-family: 'Anton', sans-serif;
+    font-weight: 80;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(3px);
 }
 
 section{
