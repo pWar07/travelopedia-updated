@@ -17,12 +17,9 @@ body {
     background: url(images/bg-1.jpg);
     background-size: cover;
     max-height: 100%;
-    /* display: flex; 
-    display: -webkit-flex; 
-    -webkit-justify-content: center; 
-    -webkit-align-items: center; 
-    justify-content: center; 
-    align-items: center;  */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
 }
 /* #myvideo{
     position: fixed;
@@ -34,14 +31,6 @@ body {
     z-index: -1;
 } */
 
-#main{
-    background: url("images/location.jpg");
-    background-size: cover;
-    background-position: center center;
-    z-index: -1;
-    background-attachment: fixed;
-}
-
 .header{
     display: flex;
     justify-content: center;
@@ -52,7 +41,7 @@ body {
     margin-left: 30px;
 }
 
-.home-btn .btn{
+/* .home-btn .btn{
     border-radius: 11px;
     color: #fff;
     text-decoration: none;
@@ -68,6 +57,23 @@ body {
     color: #000000;
     background: #fff;
     transition: 0.2s ease;
+} */
+
+
+.home-btn .btn {
+    border: 1px solid #fff;
+    padding: 14px 18px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 3px;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+.home-btn .btn:hover {
+    background: #fff;
+    color: #000;
 }
 
 h1{
