@@ -164,23 +164,23 @@ nav a{
   width: 102%;
   max-height: 100%;
 }
-.second-page .left-about .profile-about{
-  border-radius: 9px;
+.second-page .left-about .profile-about {
+  border: 1px solid #fff;
+  padding: 14px 18px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 3px;
   color: #fff;
   text-decoration: none;
-  border: 2px solid #fff;
-  padding: 7px 24px;
-  font-weight: bold;
-  transition: 0.2s ease;
-  font-family: 'Montserrat', sans-serif;
+  transition: all 0.2s ease;
   position: relative;
   left: 170px;
   top: 200px;
 }
-.second-page .left-about .profile-about:hover{
-  color: #000000;
+.second-page .left-about .profile-about:hover {
   background: #fff;
-  transition: 0.2s ease;
+  color: #000;
 }
 
 /* ----------THIRD PAGE---------- */
