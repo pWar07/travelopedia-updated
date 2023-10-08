@@ -30,22 +30,21 @@
     margin-left: 30px;
 }
 
-.home-btn .btn{
-    border-radius: 11px;
+
+.home-btn .btn {
+    border: 1px solid #fff;
+    padding: 14px 18px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 3px;
     color: #fff;
     text-decoration: none;
-    border: 2px solid #fff;
-    top: 100px;
-    padding: 7px 24px;
-    font-weight: bold;
-    transition: 0.2s ease;
-    font-family: 'Montserrat', sans-serif;
-  }
-
-.home-btn .btn:hover{
-    color: #000000;
+    transition: all 0.2s ease;
+}
+.home-btn .btn:hover {
     background: #fff;
-    transition: 0.2s ease;
+    color: #000;
 }
 
 .form-box{
